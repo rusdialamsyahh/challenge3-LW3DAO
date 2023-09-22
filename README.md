@@ -4,7 +4,7 @@
 #### Req
 
 ```shell
-npx hardhat run scripts/getStorage.js --network swisstronik
+npx hardhat run scripts/getStorageAt.js --network swisstronik
 ```
 
 #### response
@@ -25,7 +25,7 @@ Storage Value at Slot 0: 0x0xc73e7f645a2bf1365a0903afa03a2cb5029ba989df7844b0fe7
 #### req
 
 ```shell
-npx hardhat run scripts/getStorage.js --network sepolia
+npx hardhat run scripts/getStorageAt.js --network sepolia
 ```
 
 #### Response
@@ -45,7 +45,7 @@ Storage Value at Slot 0: 0x0x000000000000000000000000000000000000000000000000000
 #### Request
 
 ```shell
-npx hardhat run scripts/getStorage.js --network mumbai
+npx hardhat run scripts/getStorageAt.js --network mumbai
 ```
 
 #### Response
