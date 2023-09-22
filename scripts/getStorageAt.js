@@ -2,7 +2,7 @@ const hre = require("hardhat");
 const { ethers } = require("ethers");
 
 const getStorageValue = async (rpcURL, contractAddress, slotNumber) => {
-  const provider = new ethers.getDefaultProvider(rpcURL); // initial ether rpc
+  const provider = new ethers.getDefaultProvider(rpcURL); 
 
   
   try {
@@ -15,9 +15,9 @@ const getStorageValue = async (rpcURL, contractAddress, slotNumber) => {
 };
 
 async function main() {
-  const contractAddress = "0xf84Df872D385997aBc28E3f07A2E3cd707c9698a"; // contract address
-  const slotNumber = 0; // slot number
-  const rpcURL = hre.network.config.url; // get rpc from hardhat.config.js
+  const contractAddress = "0xf84Df872D385997aBc28E3f07A2E3cd707c9698a"; 
+  const slotNumber = 0; 
+  const rpcURL = hre.network.config.url; 
 
   let printLogs = {
     contract: contractAddress,
