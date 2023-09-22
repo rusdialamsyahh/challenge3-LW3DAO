@@ -1,18 +1,18 @@
-Installation Package
+### Installation Package
 
 ```
 npm install
 ```
 
-### Network: Swisstronik
+### network swisstronik 
 
-#### `Request`
+#### Req
 
 ```shell
 npx hardhat run scripts/getStorage.js --network swisstronik
 ```
 
-#### `Response`
+#### response
 
 ```shell
 {
@@ -25,9 +25,9 @@ Response:
 Storage Value at Slot 0: 0x0xc73e7f645a2bf1365a0903afa03a2cb5029ba989df7844b0fe7751b1ba918ea4
 ```
 
-### Network: Ethereum Sepolia
+### Network sepolia
 
-#### `Request`
+#### `req`
 
 ```shell
 npx hardhat run scripts/getStorage.js --network sepolia
@@ -46,8 +46,7 @@ Response:
 Storage Value at Slot 0: 0x0x0000000000000000000000000000000000000000000000000000000000000000
 ```
 
-### Network: Polygon Mumbai
-
+### Network Mumbai
 #### `Request`
 
 ```shell
