@@ -27,13 +27,13 @@ Storage Value at Slot 0: 0x0xc73e7f645a2bf1365a0903afa03a2cb5029ba989df7844b0fe7
 
 ### Network sepolia
 
-#### `req`
+#### req
 
 ```shell
 npx hardhat run scripts/getStorage.js --network sepolia
 ```
 
-#### `Response`
+#### Response
 
 ```shell
 {
@@ -47,13 +47,13 @@ Storage Value at Slot 0: 0x0x000000000000000000000000000000000000000000000000000
 ```
 
 ### Network Mumbai
-#### `Request`
+#### Request
 
 ```shell
 npx hardhat run scripts/getStorage.js --network mumbai
 ```
 
-#### `Response`
+#### Response
 
 ```shell
 {
