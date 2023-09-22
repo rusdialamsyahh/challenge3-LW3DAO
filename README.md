@@ -1,8 +1,3 @@
-### Installation Package
-
-```
-npm install
-```
 
 ### network swisstronik 
 
